@@ -56,6 +56,4 @@ func main() {
 	fmt.Println("\nПрочие типы:")
 	fmt.Printf("string: %d байт (базовый размер)\n", unsafe.Sizeof(s))
 	fmt.Printf("bool:   %d байт\n", unsafe.Sizeof(bl))
-
-	fmt.Println("\nПримечание: размер int/uint зависит от платформы (32 или 64 бита)")
 }
